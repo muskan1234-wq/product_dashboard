@@ -1,82 +1,95 @@
-🛍️ Product Management Dashboard
-📌 Overview
+# 🛍️ Product Management Dashboard
 
-This project is a Full Stack Product Management Dashboard designed to manage products efficiently with secure authentication and role-based access control.
-The system allows Admin users to perform full CRUD operations, while normal users can only view products. It integrates a modern React frontend with a secure Node.js backend.
+## 🌐 Live Demo  
 
-✨ Key Features
-🔐 Authentication System
-JWT-based secure login system
-Role-Based Access Control (Admin & User)
-Protected routes for secure access
+🚀 **Try the App Here:**  
+👉 https://product-dashboard-mu-one.vercel.app/login  
 
-👨‍💼 Admin Control
-Add new products
-Edit product details
-Delete products
-Full access dashboard
+Explore features like:  
+- Secure Login (Admin/User)  
+- Product Dashboard  
+- CRUD Operations (Admin)  
+- Responsive UI & Animations  
 
-👤 User Access
-View product list
-Restricted actions (no edit/delete)
+---
 
-📊 Dashboard Functionalities
-Real-time inventory statistics
-Instant search & filtering
-Clean and responsive UI
-Error handling & loading states
+## 📌 Overview  
+This project is a **Full Stack Product Management Dashboard** designed to manage products efficiently with secure authentication and role-based access control.  
 
-🎨 UI & Experience
-Dark/Light theme persistence
-Glassmorphism modern UI design
-Smooth animations using Framer Motion
+The system allows **Admin users** to perform full CRUD operations, while **normal users** can only view products. It integrates a modern **React frontend** with a secure **Node.js backend**.
 
-🧱 Tech Stack
+---
 
-🌐 Frontend
-React 19
-Vite
-Framer Motion
-Lucide Icons
+## ✨ Key Features  
 
-🔧 Backend
-Node.js
-Express.js
-JWT (Authentication)
-BcryptJS (Password Hashing)
+### 🔐 Authentication System  
+- JWT-based secure login system  
+- Role-Based Access Control (Admin & User)  
+- Protected routes for secure access  
 
-🗄️ Database
-MongoDB (Mongoose ODM)
+### 👨‍💼 Admin Control  
+- Add new products  
+- Edit product details  
+- Delete products  
+- Full access dashboard  
 
-🎨 Styling
-Vanilla CSS (Custom Design System)
+### 👤 User Access  
+- View product list  
+- Restricted actions (no edit/delete)  
 
-📂 Project Structure
-ProductManagementDashboard
+### 📊 Dashboard Functionalities  
+- Real-time inventory statistics  
+- Instant search & filtering  
+- Clean and responsive UI  
+- Error handling & loading states  
 
-frontend
-  src
-    components
-    pages
-    App.jsx
-  public
-  index.html
+### 🎨 UI & Experience  
+- Dark/Light theme persistence  
+- Glassmorphism modern UI design  
+- Smooth animations using Framer Motion  
 
-backend
-  routes
-  controllers
-  middleware
-  models
-  config
-  server.js
+---
 
-package.json
-README.md
+## 🧱 Tech Stack  
 
-⚙️ Installation & Setup
-1️⃣ Clone Repository
-git clone https://github.com/your-username/product-dashboard.git
-cd product-dashboard
+### 🌐 Frontend  
+- React 19  
+- Vite  
+- Framer Motion  
+- Lucide Icons  
+
+### 🔧 Backend  
+- Node.js  
+- Express.js  
+- JWT (Authentication)  
+- BcryptJS (Password Hashing)  
+
+### 🗄️ Database  
+- MongoDB (Mongoose ODM)  
+
+### 🎨 Styling  
+- Vanilla CSS (Custom Design System)  
+
+---
+
+## 📂 Project Structure  
+
+- frontend/  
+  - src/  
+    - components/  
+    - pages/  
+    - App.jsx  
+  - public/  
+
+- backend/  
+  - routes/  
+  - controllers/  
+  - models/  
+  - middleware/  
+  - server.js  
+
+- README.md  
+
 
 2️⃣ Backend Setup
 cd backend
@@ -95,26 +108,23 @@ GET	/products	Admin/User	Get products
 POST	/products	Admin	Add product
 PUT	/products/:id	Admin	Update product
 DELETE	/products/:id	Admin	Delete product
-
 👤 Sample Users
 
 Admin:
 
-username: admin
-password: admin123
+Username: admin
+Password: admin123
 
 User:
 
-username: user
-password: user123
-
+Username: user
+Password: user123
 🚀 Future Improvements
 Pagination & advanced filtering
 Unit testing
 Deployment (Vercel + Render)
 Performance optimization
 UI enhancements
-
 👩‍💻 Developer
 
 Muskan Pathan
