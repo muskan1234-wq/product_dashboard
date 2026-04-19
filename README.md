@@ -52,13 +52,13 @@ The system allows **Admin users** to perform full CRUD operations, while **norma
 
 ## 🧱 Tech Stack  
 
-### 🌐 Frontend  
+### 🌐 client 
 - React 19  
 - Vite  
 - Framer Motion  
 - Lucide Icons  
 
-### 🔧 Backend  
+### 🔧 server
 - Node.js  
 - Express.js  
 - JWT (Authentication)  
@@ -74,14 +74,14 @@ The system allows **Admin users** to perform full CRUD operations, while **norma
 
 ## 📂 Project Structure  
 
-- frontend/  
+- client/  
   - src/  
     - components/  
     - pages/  
     - App.jsx  
   - public/  
 
-- backend/  
+- server/  
   - routes/  
   - controllers/  
   - models/  
@@ -92,16 +92,18 @@ The system allows **Admin users** to perform full CRUD operations, while **norma
 
 ---
 
-2️⃣ Backend Setup
-cd backend
+2️⃣ server Setup
+cd server
 npm install
 npm start
 ---
-3️⃣ Frontend Setup
-cd frontend
+3️⃣ client Setup
+cd client
 npm install
 npm run dev
+
 ---
+
 🔑 API Endpoints
 Method	Endpoint	Access	Description
 POST	/login	Public	User login
