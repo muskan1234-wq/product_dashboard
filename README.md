@@ -51,8 +51,27 @@ MongoDB (Mongoose ODM)
 🎨 Styling
 Vanilla CSS (Custom Design System)
 
-📂 Project Structure
-<pre> Product-Management-Dashboard/ │ ├── frontend/ │ ├── src/ │ │ ├── components/ │ │ ├── pages/ │ │ └── App.jsx │ │ │ ├── public/ │ └── index.html │ ├── backend/ │ ├── routes/ │ ├── controllers/ │ ├── middleware/ │ ├── models/ │ ├── config/ │ └── server.js │ ├── package.json └── README.md </pre>
+ProductManagementDashboard
+
+frontend
+  src
+    components
+    pages
+    App.jsx
+  public
+  index.html
+
+backend
+  routes
+  controllers
+  middleware
+  models
+  config
+  server.js
+
+package.json
+README.md
+
 
 ⚙️ Installation & Setup
 1️⃣ Clone Repository
