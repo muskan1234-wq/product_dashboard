@@ -96,7 +96,7 @@ The system allows **Admin users** to perform full CRUD operations, while **norma
 cd backend
 npm install
 npm start
-
+---
 3️⃣ Frontend Setup
 cd frontend
 npm install
