@@ -90,6 +90,7 @@ The system allows **Admin users** to perform full CRUD operations, while **norma
 
 - README.md  
 
+---
 
 2️⃣ Backend Setup
 cd backend
@@ -100,7 +101,7 @@ npm start
 cd frontend
 npm install
 npm run dev
-
+---
 🔑 API Endpoints
 Method	Endpoint	Access	Description
 POST	/login	Public	User login
@@ -108,6 +109,9 @@ GET	/products	Admin/User	Get products
 POST	/products	Admin	Add product
 PUT	/products/:id	Admin	Update product
 DELETE	/products/:id	Admin	Delete product
+
+---
+
 👤 Sample Users
 
 Admin:
@@ -119,12 +123,18 @@ User:
 
 Username: user
 Password: user123
+
+---
+
 🚀 Future Improvements
 Pagination & advanced filtering
 Unit testing
 Deployment (Vercel + Render)
 Performance optimization
 UI enhancements
+
+---
+
 👩‍💻 Developer
 
 Muskan Pathan
